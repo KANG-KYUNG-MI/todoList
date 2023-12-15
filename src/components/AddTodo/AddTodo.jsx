@@ -13,9 +13,7 @@ const handleSubmit =(e)=>{
     setText('');
 }
 
-
-    return <form onSubmit={handleSubmit}>
-        
+    return <form onSubmit={handleSubmit}>    
         <input type='text' placeholder='add todolist' value={text} onChange={handleChange}/>
         <button>ADD</button>
     </form>
