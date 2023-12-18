@@ -4,6 +4,7 @@
   --color-grey: #d1d1d1;
   --color-text: #22243b;
   --color-accent: #f16e03;
+  --color-white: white;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.2rem;
  
 background: rgb(238,174,202);
 background: radial-gradient(circle, rgba(238,174,202,1) 39%, rgba(148,187,233,1) 100%);
@@ -41,6 +43,10 @@ overflow: hidden;
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  box-sizing: border-box;
 }
 
 ul{

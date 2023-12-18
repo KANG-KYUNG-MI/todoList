@@ -13,9 +13,10 @@ display: flex;
 }
 
 .filter{
+    cursor: pointer;
 font-size: 1.4rem;
 margin: .3rem;
-opacity: 0.8;
+
 background-color: transparent;
     color: var(--color-accent);
     font-weight: bolder;
@@ -23,7 +24,7 @@ background-color: transparent;
 
 .filter:hover,
 .filter.selected{
-opacity: 1;
+filter: brightness(125%);
 scale:calc(1.1);
 }
 
