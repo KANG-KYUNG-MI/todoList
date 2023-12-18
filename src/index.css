@@ -5,6 +5,8 @@
   --color-text: #22243b;
   --color-accent: #f16e03;
   --color-white: white;
+  --color-scrollbar: rgb(246, 199, 199);
+
 }
 
 body {
@@ -58,3 +60,4 @@ button{
   outline: none;
   border: none;
 }
+
