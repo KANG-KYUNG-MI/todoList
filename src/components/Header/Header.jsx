@@ -8,7 +8,8 @@ export default function Header({filters, filter, onFilterChange}) {
   // const handleDarkMode = ()=>toggleDarkMode
     return (
         <header className={styles.header}>
-            <button onClick={toggleDarkMode}>
+            <button className={styles.toggle}
+            onClick={toggleDarkMode}>
                 {!darkMode && <HiMoon/>}{darkMode && <HiSun/>}
             </button>
         <ul className={styles.filters}>

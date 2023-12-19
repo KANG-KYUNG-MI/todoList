@@ -16,7 +16,7 @@ color:var(--color-text);
 .text{
 flex: 1 1 0;
 margin-left: 0.5rem;
-font-size: 1.5rem;
+font-size: 1.0rem;
 }
 
 .icon{
