@@ -1,5 +1,4 @@
 import { createContext , useState, useContext, useEffect} from 'react';
-import styles from './DarkModeContext.module.css'
 
 export const DarkModeContext = createContext();
 
